@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fifo_generator_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fifo_generator_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="286493184635fs"></ZoomEndTime>
+      <Cursor1Time time="10587000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="202"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject type="logic" fp_name="/fifo_generator_tb/wr_clk">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_generator_tb/rd_clk">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fifo_generator_tb/din">
+      <obj_property name="ElementShortName">din[7:0]</obj_property>
+      <obj_property name="ObjectShortName">din[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_generator_tb/wr_en">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_generator_tb/rd_en">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group61">
+      <obj_property name="label">fifo0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/fifo_generator_tb/dout_fifo0">
+         <obj_property name="ElementShortName">dout_fifo0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_fifo0[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/full_fifo0">
+         <obj_property name="ElementShortName">full_fifo0</obj_property>
+         <obj_property name="ObjectShortName">full_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_full_fifo0">
+         <obj_property name="ElementShortName">almost_full_fifo0</obj_property>
+         <obj_property name="ObjectShortName">almost_full_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/wr_ack_fifo0">
+         <obj_property name="ElementShortName">wr_ack_fifo0</obj_property>
+         <obj_property name="ObjectShortName">wr_ack_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/overflow_fifo0">
+         <obj_property name="ElementShortName">overflow_fifo0</obj_property>
+         <obj_property name="ObjectShortName">overflow_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/empty_fifo0">
+         <obj_property name="ElementShortName">empty_fifo0</obj_property>
+         <obj_property name="ObjectShortName">empty_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_empty_fifo0">
+         <obj_property name="ElementShortName">almost_empty_fifo0</obj_property>
+         <obj_property name="ObjectShortName">almost_empty_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/valid_fifo0">
+         <obj_property name="ElementShortName">valid_fifo0</obj_property>
+         <obj_property name="ObjectShortName">valid_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/underflow_fifo0">
+         <obj_property name="ElementShortName">underflow_fifo0</obj_property>
+         <obj_property name="ObjectShortName">underflow_fifo0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/rd_data_count_fifo0">
+         <obj_property name="ElementShortName">rd_data_count_fifo0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_count_fifo0[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/wr_data_count_fifo0">
+         <obj_property name="ElementShortName">wr_data_count_fifo0[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count_fifo0[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group60">
+      <obj_property name="label">fifo1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/fifo_generator_tb/dout_fifo1">
+         <obj_property name="ElementShortName">dout_fifo1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_fifo1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/full_fifo1">
+         <obj_property name="ElementShortName">full_fifo1</obj_property>
+         <obj_property name="ObjectShortName">full_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_full_fifo1">
+         <obj_property name="ElementShortName">almost_full_fifo1</obj_property>
+         <obj_property name="ObjectShortName">almost_full_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/wr_ack_fifo1">
+         <obj_property name="ElementShortName">wr_ack_fifo1</obj_property>
+         <obj_property name="ObjectShortName">wr_ack_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/overflow_fifo1">
+         <obj_property name="ElementShortName">overflow_fifo1</obj_property>
+         <obj_property name="ObjectShortName">overflow_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/empty_fifo1">
+         <obj_property name="ElementShortName">empty_fifo1</obj_property>
+         <obj_property name="ObjectShortName">empty_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_empty_fifo1">
+         <obj_property name="ElementShortName">almost_empty_fifo1</obj_property>
+         <obj_property name="ObjectShortName">almost_empty_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/valid_fifo1">
+         <obj_property name="ElementShortName">valid_fifo1</obj_property>
+         <obj_property name="ObjectShortName">valid_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/underflow_fifo1">
+         <obj_property name="ElementShortName">underflow_fifo1</obj_property>
+         <obj_property name="ObjectShortName">underflow_fifo1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/rd_data_count_fifo1">
+         <obj_property name="ElementShortName">rd_data_count_fifo1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_count_fifo1[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/wr_data_count_fifo1">
+         <obj_property name="ElementShortName">wr_data_count_fifo1[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count_fifo1[3:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group59">
+      <obj_property name="label">fwft0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/fifo_generator_tb/dout_fwft0">
+         <obj_property name="ElementShortName">dout_fwft0[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_fwft0[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/full_fwft0">
+         <obj_property name="ElementShortName">full_fwft0</obj_property>
+         <obj_property name="ObjectShortName">full_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_full_fwft0">
+         <obj_property name="ElementShortName">almost_full_fwft0</obj_property>
+         <obj_property name="ObjectShortName">almost_full_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/wr_ack_fwft0">
+         <obj_property name="ElementShortName">wr_ack_fwft0</obj_property>
+         <obj_property name="ObjectShortName">wr_ack_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/overflow_fwft0">
+         <obj_property name="ElementShortName">overflow_fwft0</obj_property>
+         <obj_property name="ObjectShortName">overflow_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/empty_fwft0">
+         <obj_property name="ElementShortName">empty_fwft0</obj_property>
+         <obj_property name="ObjectShortName">empty_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_empty_fwft0">
+         <obj_property name="ElementShortName">almost_empty_fwft0</obj_property>
+         <obj_property name="ObjectShortName">almost_empty_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/valid_fwft0">
+         <obj_property name="ElementShortName">valid_fwft0</obj_property>
+         <obj_property name="ObjectShortName">valid_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/underflow_fwft0">
+         <obj_property name="ElementShortName">underflow_fwft0</obj_property>
+         <obj_property name="ObjectShortName">underflow_fwft0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/rd_data_count_fwft0">
+         <obj_property name="ElementShortName">rd_data_count_fwft0[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_count_fwft0[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/wr_data_count_fwft0">
+         <obj_property name="ElementShortName">wr_data_count_fwft0[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count_fwft0[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group58">
+      <obj_property name="label">fwft1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/fifo_generator_tb/dout_fwft1">
+         <obj_property name="ElementShortName">dout_fwft1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">dout_fwft1[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/full_fwft1">
+         <obj_property name="ElementShortName">full_fwft1</obj_property>
+         <obj_property name="ObjectShortName">full_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_full_fwft1">
+         <obj_property name="ElementShortName">almost_full_fwft1</obj_property>
+         <obj_property name="ObjectShortName">almost_full_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/wr_ack_fwft1">
+         <obj_property name="ElementShortName">wr_ack_fwft1</obj_property>
+         <obj_property name="ObjectShortName">wr_ack_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/overflow_fwft1">
+         <obj_property name="ElementShortName">overflow_fwft1</obj_property>
+         <obj_property name="ObjectShortName">overflow_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/empty_fwft1">
+         <obj_property name="ElementShortName">empty_fwft1</obj_property>
+         <obj_property name="ObjectShortName">empty_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/almost_empty_fwft1">
+         <obj_property name="ElementShortName">almost_empty_fwft1</obj_property>
+         <obj_property name="ObjectShortName">almost_empty_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/valid_fwft1">
+         <obj_property name="ElementShortName">valid_fwft1</obj_property>
+         <obj_property name="ObjectShortName">valid_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fifo_generator_tb/underflow_fwft1">
+         <obj_property name="ElementShortName">underflow_fwft1</obj_property>
+         <obj_property name="ObjectShortName">underflow_fwft1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/rd_data_count_fwft1">
+         <obj_property name="ElementShortName">rd_data_count_fwft1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_count_fwft1[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fifo_generator_tb/wr_data_count_fwft1">
+         <obj_property name="ElementShortName">wr_data_count_fwft1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_count_fwft1[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fifo_generator_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fifo_generator_tb/clk_freq">
+      <obj_property name="ElementShortName">clk_freq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_freq[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fifo_generator_tb/clk_period">
+      <obj_property name="ElementShortName">clk_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_period[31:0]</obj_property>
+   </wvobject>
+</wave_config>
