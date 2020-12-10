@@ -1,0 +1,11 @@
+# Remove text attribute from all files 
+# This attribute disables end-of-line normalization for all files
+# If the text attribute is unspecified, 
+# Git uses the core.autocrlf configuration variable to determine if the file should be converted.
+
+
+* -text
+
+#  Tell Git not to export certain files 
+
+.gitattributes export-ignore
