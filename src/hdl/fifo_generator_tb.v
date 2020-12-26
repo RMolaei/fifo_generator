@@ -6,7 +6,7 @@
 
 `timescale 1ns / 1ps
 module fifo_generator_tb #(
-   parameter clk_freq = 40000000          // Hz
+   parameter clk_freq = 4000000          // Hz
 );
 
 //###############################################################################################
@@ -67,6 +67,51 @@ module fifo_generator_tb #(
                                        rd_en <= 1'b1;  #clk_period;
                                        rd_en <= 1'b0;  #(clk_period*10);
 
+         din <= 8'hFF;  wr_en <= 1'b1;                 #clk_period;
+                        wr_en <= 1'b0;                 #clk_period;
+
+         din <= 8'hFE;  wr_en <= 1'b1;                 #clk_period;
+         din <= 8'hFD;                                 #clk_period;
+         din <= 8'hFC;                                 #clk_period;
+         din <= 8'hFB;                                 #clk_period;
+         din <= 8'hFA;                                 #clk_period;
+         din <= 8'hF9;                                 #clk_period;
+         din <= 8'hF8;                                 #clk_period;
+         din <= 8'hF7;                                 #clk_period;
+         din <= 8'hF6;                                 #clk_period;
+         din <= 8'hF5;                                 #clk_period;
+         din <= 8'hF4;                                 #clk_period;
+         din <= 8'hF3;                                 #clk_period;
+         din <= 8'hF2;                                 #clk_period;
+         din <= 8'hF1;                                 #clk_period;
+         din <= 8'hF0;                                 #clk_period;
+         din <= 8'h0F;                                 #clk_period;
+         din <= 8'h0E;                                 #clk_period;
+         din <= 8'h0D;                                 #clk_period;
+         din <= 8'h0C;                                 #clk_period;
+
+                        wr_en <= 1'b0;                 #(clk_period*10);
+
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b0;  #(clk_period*10);
+
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+                                       rd_en <= 1'b1;  #clk_period;
+
+                                       rd_en <= 1'b0;  #(clk_period*10);
          #(clk_period*110);
          //
       end
